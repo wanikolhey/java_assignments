@@ -26,7 +26,7 @@ public class ArrayListOfBooks {
         
             Book b1 = new Book();
             Book b2 = new Book("To Kill a Mockingbird", "Harper Lee", 399.99, "Fiction");
-            Book b3 = new Book("1984", "George Orwell", LocalDate.of(200, 6, 8), 299.99);
+            Book b3 = new Book("1984", "George Orwell", LocalDate.of(2000, 6, 8), 299.99);
             Book b4 = new Book(b3);
             b1.title = "The Great Gatsby";
             b1.author = "F. Scott Fitzgerald";
